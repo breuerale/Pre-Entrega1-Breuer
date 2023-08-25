@@ -1,0 +1,88 @@
+* {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+.menu1 {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.menu1 li:hover,
+.menu1 li:active {
+  background-color: #c81ace;
+  font-weight: 500;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+}
+
+.menu1 li a {
+  color: #130202;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+.logo {
+  width: 100%;
+  padding-top: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.menu2 {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.menu2 li:hover,
+.menu2 li:active {
+  background-color: #c81ace;
+  font-weight: 500;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  border-radius: 5px;
+}
+
+.menu2 li a {
+  color: #130202;
+  text-decoration: none;
+  font-size: larger;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+.divCarrito{
+  display: flex;
+  align-items: center;
+}
+.carrito {
+  width: 50px;
+}
+
